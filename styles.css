@@ -29,7 +29,14 @@ body {
     background-image: radial-gradient(circle, #fff 40%, #f4f0e6 100%);
   box-shadow: 0 8px 16px rgba(0,0,0,0.4);
     padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 20px  30px rgba(0,0,0,0.6);
+}
+
 
 .left {
     align-self: flex-start;
