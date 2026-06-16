@@ -1,0 +1,55 @@
+body {
+    background-color: #3e2723;
+    margin: 0;
+    padding: 0;
+}
+
+#playing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-bottom: 2px;
+    margin: 20px auto;
+    background-image: url("assets/felt.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #2c2c2c;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    background-image: radial-gradient(circle, #fff 40%, #f4f0e6 100%);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    padding: 10px;
+}
+
+.left {
+    align-self: flex-start;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 70px;
+}
+
+.right {
+    align-self: flex-end;
+    margin-right: 3px;
+    margin-bottom: 2px;
+}   
+
+.red {
+    color: red;
+}
